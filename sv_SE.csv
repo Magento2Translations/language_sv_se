@@ -1662,6 +1662,7 @@ or,eller,module,Magento_Customer
 Address,Adress,module,Magento_Customer
 "Street Address",Gatuadress,module,Magento_Customer
 "Street Address %1","Gatuadress %1",module,Magento_Customer
+"VAT Number",VAT-nummer,module,Magento_Customer
 "Change Email","Ändra e-postadress",module,Magento_Customer
 "Change Email and Password","Ändra E-postadress och Lösenord",module,Magento_Customer
 "Current Password","Nuvarande Lösenord",module,Magento_Customer
@@ -2162,6 +2163,7 @@ Qty,Antal,module,Magento_Multishipping
 "Enter a New Address","Ange en ny adress",module,Magento_Multishipping
 Change,Ändra,module,Magento_Multishipping
 "Check Out with Multiple Addresses","Gå till Kassan med Flera Adresser",module,Magento_Multishipping
+"Order Review","Granska beställning",module,Magento_Multishipping
 Item,Artikel,module,Magento_Multishipping
 Edit,Redigera,module,Magento_Multishipping
 Price,Pris,module,Magento_Multishipping
@@ -2265,6 +2267,8 @@ Shipping,Leverans,module,Magento_Payment
 "The capture action is not available.","Debitera-åtgärden är inte tillgänglig.",module,Magento_Payment
 Yes,Ja,module,Magento_Payment
 No,Nej,module,Magento_Payment
+"Card Verification Number","Verifikationsnummer för kort",module,Magento_Payment
+"Credit Card Information","Kredit- eller betalkortsinformation",module,Magento_Payment
 "Billing Agreements",Faktureringsavtal,module,Magento_Paypal
 "First Name",Förnamn,module,Magento_Paypal
 "Last Name",Efternamn,module,Magento_Paypal
@@ -2295,9 +2299,12 @@ No,Nej,module,Magento_Paypal
 Complaint,Klagomål,module,Magento_Paypal
 here,här,module,Magento_Paypal
 "Credit Card Type",Kreditkortstyp,module,Magento_Paypal
+"Credit Card Number",Kreditkortsnummer,module,Magento_Paypal
+"Card Verification Number","Verifikationsnummer för kort",module,Magento_Paypal
 Created:,Skapad:,module,Magento_Paypal
 Date,Datum,module,Magento_Paypal
 "There are no billing agreements yet.","Det finns ännu inte några faktureringsavtal.",module,Magento_Paypal
+"Your credit card will be charged for","Ditt betal- eller kreditkort kommer att debiteras",module,Magento_Paypal
 "Please select a shipping method...","Vänligen välj ett leveranssätt...",module,Magento_Paypal
 Edit,Redigera,module,Magento_Paypal
 "Place Order",Beställ,module,Magento_Paypal
@@ -4646,6 +4653,7 @@ Image,Bild,module,Magento_Swatches
 "Order Total Excl. Tax","Ordersumma Exkl. Moms",module,Magento_Tax
 "Order Total Incl. Tax","Ordersumma Inkl. Moms",module,Magento_Tax
 "Order Total",Ordersumma,module,Magento_Tax
+"Your credit card will be charged for","Ditt betal- eller kreditkort kommer att debiteras",module,Magento_Tax
 Empty,Tom,module,Magento_Theme
 "1 column","1 kolumn",module,Magento_Theme
 Configuration,Konfiguration,module,Magento_Theme
