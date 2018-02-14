@@ -43,8 +43,8 @@ Close,Stäng,module,Magento_AdminNotification
 "There are no product types available for export","Det finns ingen produkttyper för export",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","Vi kan inte hitta rollen för den användare som du önskade.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Något gick fel vid sammanställa en lista över tillåtna resurser. Du kan läsa mer i loggen undantag.",module,Magento_Authorization
-"You created the order.","Du skapade ordning.",module,Magento_Authorizenet
-"Order saving error: %1","Fel i sparandet av ordern %1",module,Magento_Authorizenet
+"You created the order.","Du skapade ordern.",module,Magento_Authorizenet
+"Order saving error: %1","Fel vid sparandet av ordern %1",module,Magento_Authorizenet
 "Please choose a payment method.","Välj en betalningsmetod.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Vi kan inte behandla din beställning just nu. Försök igen senare.",module,Magento_Authorizenet
 "An error occurred on the server. Please try to place the order again.","Ett fel uppstod på servern. Försök att lägga beställningen igen.",module,Magento_Authorizenet
@@ -52,14 +52,15 @@ Close,Stäng,module,Magento_AdminNotification
 "amount %1","belopp %1",module,Magento_Authorizenet
 failed.,misslyckades.,module,Magento_Authorizenet
 successful.,lyckades.,module,Magento_Authorizenet
-"Authorize.Net Transaction ID %1.","Authorize.Net transaktionen ID %1.",module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net transaktions-ID %1.",module,Magento_Authorizenet
 authorize,auktorisera,module,Magento_Authorizenet
 "authorize and capture","auktorisera och fånga",module,Magento_Authorizenet
 capture,fånga,module,Magento_Authorizenet
 refund,återbetalning,module,Magento_Authorizenet
+void,makulera,module,Magento_Authorizenet
 "Gateway error: %1","Gateway fel: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","Något gick fel i betalningsgateway.",module,Magento_Authorizenet
-"Invalid amount for capture.","Ogiltigt belopp för capture.",module,Magento_Authorizenet
+"Invalid amount for capture.","Kan inte ta betalt, ogiltigt belopp.",module,Magento_Authorizenet
 "Payment capturing error.",Betalningsfel,module,Magento_Authorizenet
 "Invalid transaction ID.","Ogiltigt transaktions-ID.",module,Magento_Authorizenet
 "Payment voiding error.",Betalningsfel,module,Magento_Authorizenet
@@ -75,6 +76,7 @@ refund,återbetalning,module,Magento_Authorizenet
 "Authorize Only","Tillåta endast",module,Magento_Authorizenet
 "Authorize and Capture","auktorisera och fånga",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Det går inte att få information om transaktionen. Försök igen senare.",module,Magento_Authorizenet
+"Electronic payments save the trees.","Elektroniska betalningar sparar på skogen.",module,Magento_Authorizenet
 "Credit Card Type",Kreditkortstyp,module,Magento_Authorizenet
 "Please Select","Vänligen välj",module,Magento_Authorizenet
 "Credit Card Number",Kreditkortsnummer,module,Magento_Authorizenet
@@ -286,9 +288,6 @@ Dashboard,Översikt,module,Magento_Backend
 "Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Admin måste session livstiden vara mindre än eller lika med 31536000 sekunder (ett år)",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","Admin sessionens livstid måste vara större än eller lika med 60 sekunder",module,Magento_Backend
 "Order #%1","Beställ #%1",module,Magento_Backend
-"Access denied","Nekad åtkomst",module,Magento_Backend
-"Please try to sign out and sign in again.","Försök att logga ut och logga in igen.",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","Om du fortsätter att få detta meddelande, vänligen kontakta butiksägaren.",module,Magento_Backend
 "You need more permissions to access this.","Behöver du fler behörigheter att komma åt detta.",module,Magento_Backend
 "Welcome, please sign in","Välkommen, vänligen logga in",module,Magento_Backend
 Username,Användarnamn,module,Magento_Backend
@@ -539,10 +538,11 @@ Always,Alltid,module,Magento_Captcha
 "Reload captcha","Uppdatera captcha",module,Magento_Captcha
 "Please type the letters below","Skriv in bokstäverna nedan",module,Magento_Captcha
 "Entity type model '%1' is not found","Enhet av modell '%1' finns inte",module,Magento_CatalogImportExport
-"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Enhet typ modell måste vara en instans av \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entity type model måste vara en instans av \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Det finns inga produkttyper tillgängliga för export.",module,Magento_CatalogImportExport
-"'Entity type model must be an instance of ' .","'Enhetstyp modell måste vara en instans av'.",module,Magento_CatalogImportExport
-"Category ""%1"" has not been created.","Kategorin ""%1"" har inte skapats.",module,Magento_CatalogImportExport
+"'Entity type model must be an instance of ' .","'Entity type model måste vara en instans av'.",module,Magento_CatalogImportExport
+"Wrong attribute set code ""%1"", please correct it and try again.","Fel kod för attributset ""%1"", vänligen ändra och försök igen.",module,Magento_CatalogImportExport
+"Category ""%1"" has not been created.","Kategori ""%1"" har inte skapats.",module,Magento_CatalogImportExport
 "Please enter a value for title.","Vänligen ange ett värde för titel.",module,Magento_CatalogImportExport
 "This name is already being used for custom option. Please enter a different name.","Detta namn används redan för anpassade alternativ. Ange ett annat namn.",module,Magento_CatalogImportExport
 "Custom options have different types.","Anpassade alternativ har olika typer.",module,Magento_CatalogImportExport
@@ -1555,6 +1555,9 @@ Download,"Ladda ner",module,Magento_Customer
 "The customer is now assigned to Customer Group %s.","Kunden har nu med i gruppen %s.",module,Magento_Customer
 "Would you like to change the Customer Group for this order?","Vill du ändra kundgruppen för ordern?",module,Magento_Customer
 "The VAT ID is valid.","Momsregistreringsnumret är giltigt.",module,Magento_Customer
+"The VAT ID entered (%s) is not a valid VAT ID.","Det Momsregistreringsnummer som angavs (%s) är inte ett giltigt Momsregistreringsnummer.",module,Magento_Customer
+"The VAT ID is valid. The current Customer Group will be used.","Momsregistreringsnummer är giltigt. Befintlig kundgrupp kommer att användas.",module,Magento_Customer
+"The VAT ID is valid but no Customer Group is assigned for it.","Momsregistreringsnumret är giltigt men ingen kundgrupp har tilldelas till det.",module,Magento_Customer
 "Customer Login",Kundinloggning,module,Magento_Customer
 "Create New Customer Account","Skapa nytt kundkonto",module,Magento_Customer
 "Date of Birth",Födelsedag,module,Magento_Customer
@@ -2184,8 +2187,8 @@ Reset,Återställ,module,Magento_Newsletter
 "Save and Resume","Spara och återuppta",module,Magento_Newsletter
 "View Newsletter","Visa nyhetsbrev",module,Magento_Newsletter
 "Edit Newsletter","Redigera nyhetsbrev",module,Magento_Newsletter
-"Queue Information",Kö-Information,module,Magento_Newsletter
-"Queue Date Start","Köa datum Start",module,Magento_Newsletter
+"Queue Information",Köinformation,module,Magento_Newsletter
+"Queue Date Start","Startdatum för kön",module,Magento_Newsletter
 "Subscribers From","Prenummeranter från",module,Magento_Newsletter
 Subject,Ämne,module,Magento_Newsletter
 "Sender Name","Avsändarens namn",module,Magento_Newsletter
@@ -2193,16 +2196,33 @@ Subject,Ämne,module,Magento_Newsletter
 Message,Meddelande,module,Magento_Newsletter
 "Newsletter Styles","Nyhetsbrev stilar",module,Magento_Newsletter
 Start,Starta,module,Magento_Newsletter
-Pause,Paus,module,Magento_Newsletter
+Pause,Pausa,module,Magento_Newsletter
 "Do you really want to cancel the queue?","Vill du verkligen avbryta kön?",module,Magento_Newsletter
 Cancel,Avbryt,module,Magento_Newsletter
 Resume,Återuppta,module,Magento_Newsletter
 Preview,Förhandsgranska,module,Magento_Newsletter
+"Add New Template","Lägg till ny mall",module,Magento_Newsletter
 "Newsletter Templates","Nyhetsbrev mallar",module,Magento_Newsletter
-"Convert to Plain Text","Konvertera till oformaterad Text",module,Magento_Newsletter
+"Convert to Plain Text","Konvertera till oformaterad text",module,Magento_Newsletter
 "Return HTML Version","Returnera HTML-versionen",module,Magento_Newsletter
+"Delete Template","Ta bort mallen",module,Magento_Newsletter
+"Save As","Spara som",module,Magento_Newsletter
+"Save Template","Spara mall",module,Magento_Newsletter
 "Edit Newsletter Template","Redigera mall för nyhetsbrev",module,Magento_Newsletter
+"New Newsletter Template","Ny nyhetsbrevsmall",module,Magento_Newsletter
+"Template Information","Information om mallar",module,Magento_Newsletter
+"Template Name","Mallens namn",module,Magento_Newsletter
+"Template Subject","Mallens ämne",module,Magento_Newsletter
+"Template Content","Mallens innehåll",module,Magento_Newsletter
+"Template Styles","Mallens stil",module,Magento_Newsletter
+"No Templates Found","Inga mallar hittade",module,Magento_Newsletter
+Template,Mall,module,Magento_Newsletter
+Added,Tillagd,module,Magento_Newsletter
+Updated,Uppdaterad,module,Magento_Newsletter
+Sender,Avsändare,module,Magento_Newsletter
+"Template Type","Mallens typ",module,Magento_Newsletter
 Action,Åtgärd,module,Magento_Newsletter
+"Queue Newsletter","Köa nyhetsbrev",module,Magento_Newsletter
 "Edit Template","Redigera mall",module,Magento_Newsletter
 Cancelled,Avbruten,module,Magento_Newsletter
 "Enter your email address","Ange din e-postadress",module,Magento_Newsletter
@@ -2437,6 +2457,7 @@ Canceled,Avbruten,module,Magento_Reports
 Customers,Kunder,module,Magento_Reports
 "First Name",Förnamn,module,Magento_Reports
 "Last Name",Efternamn,module,Magento_Reports
+"Items in Cart","Artiklar i kundvagnen",module,Magento_Reports
 Name,Namn,module,Magento_Reports
 "An error occurred while showing the product views report. Please review the log and try again.","Ett fel uppstod när rapporten för produktvisningar skulle visas. Granska loggen och försök igen.",module,Magento_Reports
 Review,Recension,module,Magento_Reports
@@ -2725,6 +2746,7 @@ Shipments,Leveranser,module,Magento_Sales
 "Order Shipments",Frakt,module,Magento_Sales
 Transactions,Transaktioner,module,Magento_Sales
 "Order View",Ordervy,module,Magento_Sales
+Any,Valfri,module,Magento_Sales
 "Cart Price Rule","Kundvagn Prisregel",module,Magento_Sales
 Yes,Ja,module,Magento_Sales
 No,Nej,module,Magento_Sales
@@ -2787,6 +2809,8 @@ Home,Hem,module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Vi kunde inte lägga till en produkt i varukorgen av ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Det finns ett fel i en av raderna.",module,Magento_Sales
 "Please specify order items.","Vänligen ange orderns artiklar.",module,Magento_Sales
+"Please specify a shipping method.","Vänligen ange ett leveranssätt.",module,Magento_Sales
+"Please specify a payment method.","Vänligen välj ett betalsätt.",module,Magento_Sales
 "Please enter the phone number.","Vänligen ange telefonnumret.",module,Magento_Sales
 "Please enter the zip/postal code.","Vänligen ange postnumret.",module,Magento_Sales
 Canceled,Avbruten,module,Magento_Sales
